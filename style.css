@@ -1,7 +1,6 @@
 :root {
     --primary-color: #3366cc;
     --secondary-color: #f2f2f2;
-    --link-hover-color: #ff0000;
     --table-hover-color: #e6e6e6;
     
   }
@@ -52,7 +51,7 @@
   }
   
   table tbody tr:hover {
-    background-color: var(--table-hover-color);
+    background-color: rgb(159, 158, 158);
   }
   
   table tbody tr td:first-child {
@@ -73,7 +72,7 @@
   }
   
   a:hover {
-    color: var(--link-hover-color);
+    color: #ff0000;
     text-decoration: underline;
   }
   
